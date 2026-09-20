@@ -1,0 +1,38 @@
+/* Colors and Backgrounds */
+
+/* Color Name */
+.color-name {
+    color: blue;
+}
+
+/* HEX color */
+/* 0-9 + a-f (16 - Hex, 0 is lighter and f is darker) */
+.hex-color {
+    color: #ff0000;
+}
+
+/* RGB Color */
+/* ( Red, Green, Blue ), 255 is max, 0 is lighter and 255 is darker. */
+.rgb-color {
+    color: rgb(0, 128, 0);
+}
+
+/* RGBA Color */
+/* ( Red, Green, Blue, Alpha ), For alpha min 0 and max 1. */
+.rgba-color {
+    color: rgba(128, 0, 128, 0.7)
+}
+
+/* Background Color */
+.background-box {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Gradient Background */
+.gradient-box {
+    background: linear-gradient(to right, blue, purple);
+    color: white;
+    padding: 30px;
+}
