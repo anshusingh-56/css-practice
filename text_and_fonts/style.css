@@ -1,0 +1,41 @@
+/* Text and Fonts */
+
+/* Font Family */
+.font-family {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Font Size */
+.font-size {
+    font-size: 24px;
+}
+
+/* Font Weight */
+.font-weight {
+    font-weight: bold;
+}
+
+/* Text Alignment */
+.text-align {
+    text-align: center;
+}
+
+/* Text Decoration */
+.text-decoration {
+    text-decoration: underline;
+}
+
+/* Text Transformation */
+.text-transform {
+    text-transform: uppercase;
+}
+
+/* Letter Spacing */
+.letter-spacing {
+    letter-spacing: 5px;
+}
+
+/* Line Height */
+.line-height {
+    line-height: 2;
+}
