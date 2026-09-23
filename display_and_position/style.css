@@ -1,0 +1,83 @@
+/* Display and Position */
+
+/* Basic Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    margin: 20px;
+}
+
+/* Block */
+.block-box {
+    display: block;
+    background-color: rgb(123, 151, 160);
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Inline */
+.inline-box {
+    display: inline;
+    background: lightgreen;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Inline-Block */
+.inline-block-box {
+    display: inline-block;
+    background-color: lightcoral;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Position Container */
+.position-container {
+    margin-top: 20px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+/* Relative Position */
+.relative-box {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+/* Absolute Position */
+.absolute-box {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    background-color: orange;
+    padding: 15px;
+}
+
+/* Fixed Position */
+.fixed-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
+
+/* Sticky Position */
+.sticky-box {
+    position: sticky;
+    top: 0;
+    background-color: purple;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Extra Space */
+.space {
+    height: 1000px;
+    padding: 30px;
+}
