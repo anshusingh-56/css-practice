@@ -1,0 +1,51 @@
+/*  FlexBox */
+
+body {
+    background-color: rgb(186, 189, 191)
+}
+
+/* Basic Flexbox */
+.flex-container {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.box {
+    background: lightblue;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Flex Direction */
+.direction-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 2px solid green;
+}
+
+/* Justify Content */
+.justify-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 2px solid blue;
+}
+
+.small-box {
+    background-color: orange;
+    padding: 20px;
+}
+
+/* Align Items */
+.align-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border: 2px solid purple;
+    gap: 20px;
+}
