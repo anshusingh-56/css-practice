@@ -1,0 +1,60 @@
+/* Responsive Design */
+
+/* Basic Styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+/* Cards */
+.card {
+    flex: 1;
+    background-color: lightgreen;
+    padding: 25;
+    text-align: center;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: 1 1 45%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    header {
+        padding: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
