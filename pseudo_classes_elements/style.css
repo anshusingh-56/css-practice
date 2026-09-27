@@ -1,0 +1,40 @@
+/* Pseudo Classes and Pseudo Elements */
+
+/* Hover Pseudo Class */
+.hover-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hover-button:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* Focus Pseudo Class */
+.focus-input {
+    padding: 10px;
+    border: 2px solid gray;
+}
+
+.focus-input:focus {
+    border-color: blue;
+    outline: none;
+}
+
+/* First Child Pseudo Class */
+.list li:first-child {
+    color: red;
+    font-weight: bold;
+}
+
+/* Before Pseudo Element */
+.before-text::before {
+    content: "👉 ";
+}
+
+/* After Pseudo Element */
+.after-text::after {
+    content: " ✔";
+}
