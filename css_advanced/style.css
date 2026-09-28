@@ -1,0 +1,51 @@
+/* Advanced CSS */
+
+/* CSS Variable */
+:root {
+    --main-color: #3498db;
+    --card-padding: 20px;
+}
+
+/* Basic Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+/* Card */
+.card {
+    padding: var(--card-padding);
+    margin: 20px 0;
+    border: 1px solid #ccc;
+
+    /* CSS Variable */
+    border-left: 5px solid var(--main-color);
+
+    /* Box Shadow */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+    /* Transition */
+    transition: transform 0.3s ease;
+}
+
+/* Transform */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Button */
+.button {
+    padding: 12px 20px;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+
+    /* Transition */
+    transition: all 0.3s ease;
+}
+
+/* Transform on Hover */
+.button:hover {
+    transform: scale(1.1);
+}
